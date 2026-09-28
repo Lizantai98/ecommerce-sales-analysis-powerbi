@@ -111,11 +111,11 @@ The dimension tables are on the one side of the relationships, while fact_sales 
 The report uses DAX measures to calculate the core business metrics.
 
 ### Total Revenue
-Total Revenue =
+- Total Revenue =
 SUM(fact_sales[sales_amount])
 
 ### Total Profit
-Total Profit =
+- Total Profit =
 SUMX(
     fact_sales,
     fact_sales[sales_amount] -
@@ -123,23 +123,23 @@ SUMX(
 )
 
 ### Profit Margin
-Profit Margin =
+- Profit Margin =
 DIVIDE([Total Profit], [Total Revenue])
 
 ### Total Orders
-Total Orders =
+- Total Orders =
 DISTINCTCOUNT(fact_sales[order_number])
 
 ### Total Quantity
-Total Quantity =
+- Total Quantity =
 SUM(fact_sales[quantity])
 
 ### Total Customers
-Total Customers =
+- Total Customers =
 DISTINCTCOUNT(fact_sales[customer_key])
 
 ### Average Shipping Time
-Average Shipping Time =
+- Average Shipping Time =
 AVERAGEX(
     FILTER(
         fact_sales,
