@@ -103,6 +103,8 @@ dim_customers  1 ───── *  fact_sales  * ───── 1  dim_product
                               │
                          Calendar  1
 
+![Power BI Data Model](Data%20Model.png)
+
 Relationships were created using:
 
 - dim_customers[customer_key] → fact_sales[customer_key]
@@ -172,6 +174,8 @@ Sales Trend
 Sales by Category
 Year, Category, and Country slicers
 
+![Power BI Overview](Overview.png)
+
 ### 2. Customer Analysis
 
 Focuses on customer characteristics and revenue contribution through:
@@ -180,6 +184,8 @@ Sales by Country
 Customers by Gender
 Customers by Marital Status
 Customer Details table
+
+![Power BI Customer Analysis](Customer%20Analysis.png)
 
 ### 3. Product Analysis
 
@@ -190,26 +196,21 @@ Sales by Subcategory
 Top 10 Products by Sales
 Product Details table
 
+![Power BI Product Analysis](Product%20Analysis.png)
+
 ## Dashboard Screenshots
 ### Data Model
-
-
-
+![Power BI Data Model](Data%20Model.png)
 
 ### Overview
-
-
-
+![Power BI Overview](Overview.png)
 
 ### Customer Analysis
 
-
-
+![Power BI Customer Analysis](Customer%20Analysis.png)
 
 ### Product Analysis
-
-
-
+![Power BI Product Analysis](Product%20Analysis.png)
 
 ## Key Insights
 
