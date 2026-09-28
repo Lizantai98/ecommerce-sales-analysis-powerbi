@@ -1,8 +1,8 @@
 # ecommerce-sales-analysis-powerbi
 
-## Project Overview
+This project analyses an e-commerce dataset using Microsoft Power BI to uncover insights into sales performance, customers, products, profitability, and shipping activity.
 
-This project analyses an e-commerce dataset using Microsoft Power BI to uncover insights into sales performance, profitability, customers, products, and shipping activity.
+## Project Overview
 
 The project builds on my previous SQL and Excel analyses of the same dataset, progressing from data querying and exploratory analysis to data modelling, DAX calculations, and interactive business intelligence reporting.
 
