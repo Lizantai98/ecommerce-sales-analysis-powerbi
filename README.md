@@ -164,15 +164,15 @@ AVERAGEX(
 
 Provides a high-level summary of business performance through:
 
-Total Revenue
-Total Profit
-Profit Margin
-Total Orders
-Total Quantity
-Average Shipping Time
-Sales Trend
-Sales by Category
-Year, Category, and Country slicers
+- Total Revenue
+- Total Profit
+- Profit Margin
+- Total Orders
+- Total Quantity
+- Average Shipping Time
+- Sales Trend
+- Sales by Category
+- Year, Category, and Country slicers
 
 ![Power BI Overview](Overview.png)
 
@@ -180,10 +180,10 @@ Year, Category, and Country slicers
 
 Focuses on customer characteristics and revenue contribution through:
 
-Sales by Country
-Customers by Gender
-Customers by Marital Status
-Customer Details table
+- Sales by Country
+- Customers by Gender
+- Customers by Marital Status
+- Customer Details table
 
 ![Power BI Customer Analysis](Customer%20Analysis.png)
 
@@ -191,25 +191,11 @@ Customer Details table
 
 Focuses on product performance through:
 
-Sales by Category
-Sales by Subcategory
-Top 10 Products by Sales
-Product Details table
+- Sales by Category
+- Sales by Subcategory
+- Top 10 Products by Sales
+- Product Details table
 
-![Power BI Product Analysis](Product%20Analysis.png)
-
-## Dashboard Screenshots
-### Data Model
-![Power BI Data Model](Data%20Model.png)
-
-### Overview
-![Power BI Overview](Overview.png)
-
-### Customer Analysis
-
-![Power BI Customer Analysis](Customer%20Analysis.png)
-
-### Product Analysis
 ![Power BI Product Analysis](Product%20Analysis.png)
 
 ## Key Insights
