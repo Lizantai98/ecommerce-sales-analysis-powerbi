@@ -37,46 +37,46 @@ The project uses three related tables:
 
 Contains transaction-level sales information, including:
 
-Order Number
-Product Key
-Customer Key
-Order Date
-Shipping Date
-Due Date
-Sales Amount
-Quantity
-Price
+- Order Number
+- Product Key
+- Customer Key
+- Order Date
+- Shipping Date
+- Due Date
+- Sales Amount
+- Quantity
+- Price
 
 ### gold.dim_products
 
 Contains product information, including:
 
-Product Key
-Product ID
-Product Number
-Product Name
-Category ID
-Category
-Subcategory
-Maintenance
-Cost
-Product Line
-Start Date
+- Product Key
+- Product ID
+- Product Number
+- Product Name
+- Category ID
+- Category
+- Subcategory
+- Maintenance
+- Cost
+- Product Line
+- Start Date
 
 ### gold.dim_customers
 
 Contains customer information, including:
 
-Customer Key
-Customer ID
-Customer Number
-First Name
-Last Name
-Country
-Marital Status
-Gender
-Birthdate
-Create Date
+- Customer Key
+- Customer ID
+- Customer Number
+- First Name
+- Last Name
+- Country
+- Marital Status
+- Gender
+- Birthdate
+- Create Date
 
 ## Data Preparation
 
@@ -84,24 +84,18 @@ The data was cleaned and transformed in Power Query before being loaded into the
 
 Key transformations included:
 
-Assigning appropriate data types to numeric, text, and date columns.
-Cleaning and trimming text fields.
-Creating a full_name field from first and last names.
-Reviewing missing values without replacing valid unknown information with fabricated values.
-Preserving valid repeated order numbers because an order can contain multiple sales lines.
-Preparing the tables for relational modelling.
+- Assigning appropriate data types to numeric, text, and date columns.
+- Cleaning and trimming text fields.
+- Creating a full_name field from first and last names.
+- Reviewing missing values without replacing valid unknown information with fabricated values.
+- Preserving valid repeated order numbers because an order can contain multiple sales lines.
+- Preparing the tables for relational modelling.
 
 A dedicated Calendar table was also created to support time-based analysis and connected to fact_sales through order_date.
 
 ## Data Model
 
 The Power BI model follows a basic star-schema structure:
-
-dim_customers  1 ───── *  fact_sales  * ───── 1  dim_products
-                              │
-                              *
-                              │
-                         Calendar  1
 
 ![Power BI Data Model](Data%20Model.png)
 
