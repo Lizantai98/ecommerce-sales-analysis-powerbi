@@ -78,4 +78,4 @@ Power BI Desktop: Power Query, DAX and data modelling.
 
 ## Author
 
-Elizabeth Antai, Data Analyst LinkedIn | GitHub
+Elizabeth Antai, Data Analyst [LinkedIn](https://www.linkedin.com/in/elizabeth-antai/) | [GitHub](https://github.com/Lizantai98)
