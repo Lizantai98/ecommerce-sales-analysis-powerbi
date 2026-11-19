@@ -4,7 +4,8 @@ A three-page Power BI dashboard analysing 60,398 sales lines, 18,484 customers a
 
 ### Data Model
 
-<img width="1176" height="769" alt="image" src="https://github.com/user-attachments/assets/130cafe8-2065-4f6b-9460-f703bf8fa8f1" /
+<img width="1176" height="769" alt="image" src="https://github.com/user-attachments/assets/562b1a91-a877-49ef-b808-c43b7cf545ae" />
+
 
 ## Business Questions
 - How have revenue, profit and orders changed over time?
